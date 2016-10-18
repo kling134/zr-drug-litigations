@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE drug_litigations [
+<!ELEMENT drug_litigations (drug)>
+<!ELEMENT drug (brand_name,generic_name,drug_class,adverse_effect)>
+<!ELEMENT brand_name (#PCDATA)>
+<!ELEMENT generic_name (#PCDATA)>
+<!ELEMENT drug_class (#PCDATA)>
+<!ELEMENT adverse_effect (#PCDATA)>
+]>
+
+<drug_litigations>
+  <drug>
+    <brand_name>Abilify</brand_name>
+    <generic_name>Aripiprazole</generic_name>
+    <drug_class>Antipsychotic</drug_class>
+    <adverse_effect>Pathological gambling</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Actos</brand_name>
+    <generic_name>Pioglitazone</generic_name>
+    <drug_class>Diabetes medication</drug_class>
+    <adverse_effect>Bladder cancer</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>AndroGel</brand_name>
+    <generic_name>Testosterone</generic_name>
+    <drug_class>Androgen</drug_class>
+    <adverse_effect>Cardiovascular injuries</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Invokana</brand_name>
+    <generic_name>Canagliflozin</generic_name>
+    <drug_class>Diabetes medication</drug_class>
+    <adverse_effect>Ketoacidosis</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Levaquin</brand_name>
+    <generic_name>Levofloxacin</generic_name>
+    <drug_class>Fluoroquinolone antibiotic</drug_class>
+    <adverse_effect>Tendon ruptures</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Risperdal</brand_name>
+    <generic_name>Risperidone</generic_name>
+    <drug_class>Antipsychotic</drug_class>
+    <adverse_effect>Gynecomastia</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Viagra</brand_name>
+    <generic_name>Sildenafil</generic_name>
+    <drug_class>Vasodilator</drug_class>
+    <adverse_effect>Melanoma</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Xarelto</brand_name>
+    <generic_name>Rivaroxaban</generic_name>
+    <drug_class>Anticoagulant</drug_class>
+    <adverse_effect>Severe bleeding problems</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Yaz</brand_name>
+    <generic_name>Drospirenone/Ethinyl Estradiol</generic_name>
+    <drug_class>Birth control</drug_class>
+    <adverse_effect>Blood clots</adverse_effect>
+  </drug>
+
+  <drug>
+    <brand_name>Zofran</brand_name>
+    <generic_name>Ondansetron</generic_name>
+    <drug_class>Antiemetic</drug_class>
+    <adverse_effect>Birth defects</adverse_effect>
+  </drug>
+</drug_litigations>
